@@ -1,0 +1,84 @@
+.contenedor-principal {
+    padding: 50px;
+}
+
+.contenedor-img {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4f46e5;
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.numeros {
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.titulo-nombre {
+    font-weight: 700;
+    color: white;
+    font-size: 35px;
+}
+.frase {
+    background: linear-gradient(to right, #69b4f1, #7fb2f1, #3388ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.descripcion-1 {
+    background: linear-gradient(to right, #e4e4e4, #656565, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.simbolo {
+    margin: 10px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.botones {
+    display: inline-flex;       
+    align-items: center;       
+    gap: 6px;                   
+
+    padding: 5px 12px;         
+    height: 30px;               
+    
+    border: none;
+    font-size: 12px;
+    background: linear-gradient(90deg, #7c3aed, #4f46e5);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+@media(max-width: 850px){
+    .contenedor-principal {
+        flex-direction: column;
+    }
+    .principal {
+        order: 2;
+    }
+    .secundario{
+        order: 1;
+        margin-bottom: 10px;
+    }
+    .contenedor-btns a {
+        margin: 5px;
+    }
+}

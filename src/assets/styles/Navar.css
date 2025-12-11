@@ -1,0 +1,13 @@
+.links:hover {
+  background: #69b4f1;
+  border-radius: 20px;
+}
+
+.navbar-toggler {
+  border-color: white !important; /* opcional: borde blanco */
+}
+
+/* Cambiar el color del ícono usando filtros */
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);   /* lo vuelve blanco */
+}
