@@ -36,7 +36,7 @@
 
 /* Cada card dentro del contenedor: dos por fila */
 .contenedor-proyectos .contenedor-informacion {
-  flex: 0 0 calc(50% - 1rem); /* dos cards por fila (resta gap) */
+  flex: 0 0 calc(70% - 1rem); /* dos cards por fila (resta gap) */
   display: flex;
   flex-direction: column;     /* para poder hacer que el body crezca */
   height: 100%;
@@ -66,7 +66,7 @@
 .contenedor-informacion .card-img-top,
 .contenedor-informacion .carousel img {
   width: 100%;
-  height: 200px;        /* ajusta la altura de la imagen según tu diseño */
+  height: 250px;        /* ajusta la altura de la imagen según tu diseño */
   object-fit: cover;    /* recorta/cubre sin deformar */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;

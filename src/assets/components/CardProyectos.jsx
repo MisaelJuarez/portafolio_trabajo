@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 
-const CardProyectos = ({imagenes,titulo,descripcion}) => {
+const CardProyectos = ({imagenes,titulo,descripcion,repositorio,link}) => {
     return(
         <Card style={{ width: '18rem' }} className='contenedor-informacion'>
         <div className='p-1'>
@@ -21,7 +21,8 @@ const CardProyectos = ({imagenes,titulo,descripcion}) => {
         <Card.Body>
             <Card.Title className='cardTitulo'>{titulo}</Card.Title>
             <Card.Text>
-                {descripcion}
+                {descripcion} <br/>
+                <a href={link} target='_blank'>{repositorio}</a>
             </Card.Text>
         </Card.Body>
         </Card>
